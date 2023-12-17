@@ -6,28 +6,28 @@ using namespace std;
 int main()
 {
     //variables
-    string operation;
-    double number1;
-    double number2;
+    string op;
+    double num1;
+    double num2;
 
     //user input
     cout << "Enter number one";
-    cin >> number1;
+    cin >> num1;
      cout << "Operation (+, -, *, /)";
-    cin >> operation;
+    cin >> op;
      cout << "Enter number two";
-    cin >> number2;
+    cin >> num2;
 
     //calculating
 
-    if(operation == "+"){
-        cout << number1 + number2;
-    }else if(operation == "-"){
-        cout << number1 - number2;
-    }else if(operation == "*"){
-        cout << number1 * number2;
-    }else if(operation == "/"){
-        cout << number1 / number2;
+    if(op == "+"){
+        cout << num1 + num2;
+    }else if(op == "-"){
+        cout << num1 - num2;
+    }else if(op == "*"){
+        cout << num1 * num2;
+    }else if(op == "/"){
+        cout << num1 / num2;
     }else{
         "Invalid input!";
     }
