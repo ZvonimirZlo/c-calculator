@@ -1,1 +1,1 @@
-Simple calculator in C++. 
+Simple calculator in C++ 
